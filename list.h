@@ -88,9 +88,6 @@ public:
     void pushFront(const T&);
     void pushFront(T&&);
 
-    // добавить в начало emplace
-    // добавить в конец emplace
-
     // вставить после
     void insert_after(iterator & it,const T&&);
     void insert_after(iterator & it,const T&);
